@@ -1,0 +1,10 @@
+# build/source artefacts: keep the code and data, skip the screenshots
+_source/**
+!_source/*.py
+!_source/*.json
+
+# local tooling output
+*.zip
+*.log
+Thumbs.db
+.DS_Store

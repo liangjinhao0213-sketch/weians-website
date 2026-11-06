@@ -1,0 +1,1 @@
+{"url": "file:///C:/Users/LJHRMXS/Documents/deepseek-harness/default-workspace/weinas-site/index.html", "width": 400, "height": 840, "expression": "(() => { const o={}; ['#top-picks','#factory'].forEach(s=>{const e=document.querySelector(s); o[s]=e?Math.round(e.getBoundingClientRect().top+window.scrollY):0;}); return o; })()"}

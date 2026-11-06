@@ -1,0 +1,1 @@
+{"url": "http://wwweinas/products/", "width": 1440, "height": 520, "full": false, "prepare": "document.querySelectorAll('.reveal').forEach(e=>e.classList.add('is-in'));document.querySelectorAll('*').forEach(e=>{e.style.transitionDuration='0s'}); true", "wait": 1500, "out": "C:\\Users\\LJHRMXS\\Documents\\deepseek-harness\\default-workspace\\weinas-site\\_source\\shot-wp-nav.png"}

@@ -1,0 +1,8 @@
+{
+    "out":  "C:\\Users\\LJHRMXS\\Documents\\deepseek-harness\\default-workspace\\weinas-site\\_source\\page-profile.png",
+    "prepare":  "document.querySelectorAll(\u0027.reveal\u0027).forEach(e=\u003ee.classList.add(\u0027is-in\u0027));document.querySelectorAll(\u0027*\u0027).forEach(e=\u003e{e.style.transitionDuration=\u00270s\u0027});true",
+    "full":  true,
+    "height":  900,
+    "url":  "http://127.0.0.1:8080/about-us/company-profile.html",
+    "width":  1440
+}
