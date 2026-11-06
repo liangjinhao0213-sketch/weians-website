@@ -1,1 +1,0 @@
-{"url": "http://127.0.0.1:8080/index.html", "width": 1440, "height": 1000, "expression": "(() => {\n  const s = document.querySelector('[data-wg-stage]').getBoundingClientRect();\n  return {x: Math.round(s.x), y: Math.round(s.y + window.scrollY), w: Math.round(s.width), h: Math.round(s.height)};\n})()"}

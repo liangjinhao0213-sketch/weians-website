@@ -1,9 +1,13 @@
-# build/source artefacts: keep the code and data, skip the screenshots
+﻿# build/source artefacts: keep the code and data, skip the screenshots
 _source/**
 !_source/*.py
-!_source/*.json
+!_source/source_*.json
+!_source/products_data.py
 
-# local tooling output
+# debug captures and one-off test configs
+_source/cfg-*.json
+_source/_*.json
+_source/_*.html
 *.zip
 *.log
 Thumbs.db

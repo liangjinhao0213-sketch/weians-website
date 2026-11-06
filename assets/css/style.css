@@ -3736,8 +3736,8 @@ body.is-locked { overflow: hidden; }
 /* ------------------------------------------------------------------ whatsapp float */
 .wa-float {
   position: fixed;
-  right: clamp(14px, 2vw, 26px);
-  bottom: clamp(14px, 2vw, 26px);
+  right: calc(clamp(16px, 2vw, 26px) + env(safe-area-inset-right, 0px));
+  bottom: calc(clamp(16px, 2vw, 26px) + env(safe-area-inset-bottom, 0px));
   z-index: 90;
   width: 52px;
   height: 52px;
@@ -3754,8 +3754,13 @@ body.is-locked { overflow: hidden; }
 .wa-float:hover { transform: translateY(-2px); background: var(--navy-soft); }
 
 @media (max-width: 560px) {
-  .wa-float { width: 48px; height: 48px; right: 12px; bottom: 12px; }
-  .wa-float svg { width: 24px; height: 24px; }
+  .wa-float {
+    width: 50px;
+    height: 50px;
+    right: calc(22px + env(safe-area-inset-right, 0px));
+    bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+  }
+  .wa-float svg { width: 25px; height: 25px; }
 }
 
 /* ------------------------------------------------------------------ global quote modal */
@@ -4097,7 +4102,7 @@ body.is-locked { overflow: hidden; }
   /* keep the bar in one thin row so hero + bar still fill the first screen */
   .specbar__inner {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    padding-right: 58px; /* clear the floating WhatsApp button */
+    padding-right: 64px; /* clear the floating WhatsApp button */
   }
   .specbar__item {
     flex-direction: column;
